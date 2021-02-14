@@ -18,6 +18,7 @@ idk client or something for minecraft
 - Offhand crash
 - Maybe god mode ish
 - Eagle
+- Tab+
 ## Done
 shh secret 
 
