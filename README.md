@@ -18,5 +18,5 @@ idk client or something for minecraft
 shh secret 
 
 # Update 0.0.1
-  Added Hclip
-  Improved Boat Fly
+ - Added Hclip
+ - Improved Boat Fly
