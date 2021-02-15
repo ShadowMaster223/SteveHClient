@@ -19,6 +19,8 @@ idk client or something for minecraft
 - Maybe god mode ish
 - Eagle
 - Tab+
+- Elytra fly
+- .d
 ## Done
 shh secret 
 
