@@ -1,31 +1,27 @@
 ---
-name: Bug Report
-about: Report a bug
-title: ''
+name: Bug report
+about: Create a bug report to help us improve or fix the client.
+title: "[Bug]"
 labels: bug
 assignees: ''
+
 ---
-Before posting, please make sure that this hasn't already been reported by someone else.
 
-## Description
-What's wrong?
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-## Steps To Reproduce
-Please make a list of steps to reproduce the problem (ideally from a fresh Wurst installation):
-1. 
-2. 
-3. 
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-## Screenshots / Videos (Optional)
-If applicable, add screenshots, videos or other files to help explain the problem.
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
-## Crash Report
-Please find your crash report file at "%appdata%/.minecraft/crash-reports", open the file in a text editor and copy-paste its content below.
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-```
-
-(crash report goes here)
-
-```
-
-**Please note:** If the game did not crash, please hold down F3+C for 10 seconds to generate a crash report. Even when a bug doesn't cause the game to crash, this file still contains useful information that can help us to find and fix the problem. Because of this, please always include a crash report.
+**Additional context**
+Add any other context (meteor version, minecraft version, other mods you are using, etc).
