@@ -22,6 +22,7 @@ As Steve H once said "One cannot just be the Grand Warden, you must become the W
 - Elytra fly
 - .d
 - Name Protect
+- Crystal Aura
 ## Done
 shh secret 
 
