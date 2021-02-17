@@ -31,6 +31,7 @@ public final class HackList implements UpdateListener
 
 	public final AntiBlindHack antiBlindHack = new AntiBlindHack();
 	public final AntiCactusHack antiCactusHack = new AntiCactusHack();
+	public final AntiHungerHack antiHungerHack = new AntiHungerHack();
 	public final AntiKnockbackHack antiKnockbackHack = new AntiKnockbackHack();
 	public final AntiSpamHack antiSpamHack = new AntiSpamHack();
 	public final AntiWaterPushHack antiWaterPushHack = new AntiWaterPushHack();
@@ -124,6 +125,7 @@ public final class HackList implements UpdateListener
 	public final NoWebHack noWebHack = new NoWebHack();
 	public final NukerHack nukerHack = new NukerHack();
 	public final NukerLegitHack nukerLegitHack = new NukerLegitHack();
+	public final OffhandCrashHack offhandCrashHack = new OffhandCrashHack();
 	public final OpenWaterEspHack openWaterEspHack = new OpenWaterEspHack();
 	public final OverlayHack overlayHack = new OverlayHack();
 	public final PanicHack panicHack = new PanicHack();
