@@ -11,7 +11,7 @@ import minegame159.meteorclient.modules.render.hud.HUD;
 
 public class WelcomeHud extends DoubleTextHudModule {
     public WelcomeHud(HUD hud) {
-        super(hud, "welcome", "Displays a welcome message.", "Welcome to Meteor Client, ");
+        super(hud, "welcome", "Displays a welcome message.", "Haha Imagine having this on your screen! ");
         rightColor = hud.welcomeColor.get();
     }
 

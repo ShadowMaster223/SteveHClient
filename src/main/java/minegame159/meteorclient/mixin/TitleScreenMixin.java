@@ -56,12 +56,12 @@ public class TitleScreenMixin extends Screen {
     @Inject(method = "init", at = @At("TAIL"))
     private void onInit(CallbackInfo info) {
 
-        text1 = "Meteor Client by ";
-        text2 = "MineGame159";
+        text1 = "Searching for";
+        text2 = " Steve Hamish";
         text3 = ", ";
-        text4 = "squidoodly";
+        text4 = "pork";
         text5 = " & ";
-        text6 = "seasnail";
+        text6 = "more pork";
 
         text1Length = textRenderer.getWidth(text1);
         text2Length = textRenderer.getWidth(text2);
