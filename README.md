@@ -12,7 +12,7 @@ Based on Wurst and Meteor
 ## Installation
 Download from releases and put in mods folder
 
-##Upcoming
+## Upcoming
 - Annoy
 - Nbt
 - Eagle
