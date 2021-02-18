@@ -17,3 +17,4 @@ Download from releases and put in mods folder
 - Nbt
 - Eagle
 - various others
+- Anti Fire
