@@ -12,4 +12,8 @@ Based on Wurst and Meteor
 ## Installation
 Download from releases and put in mods folder
 
-
+##Upcoming
+- Annoy
+- Nbt
+- Eagle
+- various others
