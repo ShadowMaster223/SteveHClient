@@ -15,6 +15,8 @@ import minegame159.meteorclient.events.game.OpenScreenEvent;
 import minegame159.meteorclient.events.meteor.ActiveModulesChangedEvent;
 import minegame159.meteorclient.events.meteor.KeyEvent;
 import minegame159.meteorclient.modules.combat.*;
+import minegame159.meteorclient.modules.crash.CrashChest;
+import minegame159.meteorclient.modules.crash.KillPotion;
 import minegame159.meteorclient.modules.misc.*;
 import minegame159.meteorclient.modules.movement.Timer;
 import minegame159.meteorclient.modules.movement.*;
@@ -49,7 +51,7 @@ import javax.annotation.Nullable;
 import java.util.*;
 
 public class Modules extends System<Modules> {
-    public static final Category[] CATEGORIES = {Category.Combat, Category.Player, Category.Movement, Category.Render, Category.Misc};
+    public static final Category[] CATEGORIES = {Category.Combat, Category.Player, Category.Movement, Category.Render, Category.Misc, Category.Crash};
     public static final ModuleRegistry REGISTRY = new ModuleRegistry();
 
     private final Map<Class<? extends Module>, Module> modules = new HashMap<>();
@@ -75,6 +77,7 @@ public class Modules extends System<Modules> {
         initMovement();
         initRender();
         initMisc();
+        initCrash();
 
         for (List<Module> modules : groups.values()) {
             modules.sort(Comparator.comparing(o -> o.title));
@@ -371,6 +374,7 @@ public class Modules extends System<Modules> {
         addModule(new GUIMove());
         addModule(new HighJump());
         addModule(new Jesus());
+        addModule(new Jetpack());
         addModule(new NoFall());
         addModule(new NoSlow());
         addModule(new Parkour());
@@ -413,6 +417,7 @@ public class Modules extends System<Modules> {
         addModule(new TimeChanger());
         addModule(new Tracers());
         addModule(new Trajectories());
+        addModule(new TrueSight());
         addModule(new UnfocusedCPU());
         addModule(new VoidESP());
         addModule(new Xray());
@@ -446,6 +451,11 @@ public class Modules extends System<Modules> {
         addModule(new Spam());
         addModule(new StashFinder());
         addModule(new VisualRange());
+    }
+    
+    private void initCrash() {
+    	addModule(new CrashChest());
+    	addModule(new KillPotion());
     }
 
     public static class ModuleRegistry extends Registry<Module> {

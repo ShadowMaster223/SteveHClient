@@ -33,6 +33,7 @@ public class WModuleCategory extends WWindow {
             case Movement: return GuiConfig.WindowType.Movement;
             case Render:   return GuiConfig.WindowType.Render;
             case Misc:     return GuiConfig.WindowType.Misc;
+            case Crash: return GuiConfig.WindowType.Crash;
         }
 
         return null;

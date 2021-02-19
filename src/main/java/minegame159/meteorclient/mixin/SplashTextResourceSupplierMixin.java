@@ -19,21 +19,21 @@ import java.util.List;
 public class SplashTextResourceSupplierMixin {
     @Inject(method = "apply", at = @At("HEAD"))
     private void onApply(List<String> list, ResourceManager resourceManager, Profiler profiler, CallbackInfo info) {
-        list.add("Meteor on Crack!");
-        list.add("Star Meteor Client on GitHub!");
+        list.add("Steve Hamish!");
+        list.add("Star SteveHClient on GitHub!");
         list.add("Based utility mod.");
         list.add("based");
-        list.add(":EZ:");
-        list.add(":kekw:");
-        list.add("OK retard.");
-        list.add("cat");
-        list.add("snale");
+        list.add("1.17 out now!");
+        list.add("The Barb King");
+        list.add("OK.");
+        list.add("Admin");
+        list.add("Snake");
         list.add("monkey");
-        list.add("mingane");
-        list.add("https://bigrat.monster");
-        list.add("snale moment");
-        list.add("inertia moment");
-        list.add("squidoodly based god");
-        list.add("r/squidoodly");
+        list.add("Minceraft");
+        list.add("www.google.com");
+        list.add("azob moment");
+        list.add("xli moment");
+        list.add("squid god");
+        list.add("pork");
     }
 }

@@ -82,7 +82,7 @@ public class TheAlteningAccount extends Account<TheAlteningAccount> {
         YggdrasilUserAuthentication auth = (YggdrasilUserAuthentication) new YggdrasilAuthenticationService(((MinecraftClientAccessor) MinecraftClient.getInstance()).getProxy(), "", Environment.create(AUTH, ACCOUNT, SESSION, SERVICES, "The Altening")).createUserAuthentication(Agent.MINECRAFT);
 
         auth.setUsername(name);
-        auth.setPassword("Meteor on Crack!");
+        auth.setPassword("Steve Hamish!");
 
         return auth;
     }

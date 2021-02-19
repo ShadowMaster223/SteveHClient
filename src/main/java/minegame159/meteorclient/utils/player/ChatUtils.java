@@ -115,7 +115,7 @@ public class ChatUtils {
     }
 
     private static BaseText getPrefix(String title, PrefixType type) {
-        BaseText meteor = new LiteralText("Meteor");
+        BaseText meteor = new LiteralText("SteveH");
         meteor.setStyle(meteor.getStyle().withFormatting(Formatting.BLUE));
 
         BaseText prefix = new LiteralText("");

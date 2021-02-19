@@ -245,8 +245,10 @@ public class GuiConfig implements ISerializable<GuiConfig> {
         Render,
         Misc,
         Setting,
+        Crash,
         Profiles,
-        Search
+        Search,
+        
     }
 
     public static class WindowConfig implements ISerializable<WindowConfig> {

@@ -21,7 +21,7 @@ public class Waypoint implements ISerializable<Waypoint> {
         MB.texture = true;
     }
 
-    public String name = "Meteor on Crack!";
+    public String name = "Steve Hamish!";
     public String icon = "Square";
     public SettingColor color = new SettingColor(225, 25, 25);
 

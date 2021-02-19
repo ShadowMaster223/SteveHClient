@@ -34,13 +34,13 @@ public class DiscordPresence extends Module {
     private final Setting<String> line2 = sgGeneral.add(new StringSetting.Builder()
             .name("line-2")
             .description("The text it displays on line 2 of the RPC.")
-            .defaultValue("Meteor on Crack!")
+            .defaultValue("Steve Hamish!")
             .onChanged(booleanSetting -> updateDetails())
             .build()
     );
 
     public DiscordPresence() {
-        super(Category.Misc, "discord-presence", "Displays a RPC for you on Discord to show that you're playing Meteor Client!");
+        super(Category.Misc, "discord-presence", "Displays a RPC for you on Discord to show that you're playing SteveH Client!");
     }
 
     private static final DiscordRichPresence rpc = new DiscordRichPresence();
@@ -54,8 +54,8 @@ public class DiscordPresence extends Module {
         instance.Discord_Initialize("709793491911180378", handlers, true, null);
 
         rpc.startTimestamp = System.currentTimeMillis() / 1000L;
-        rpc.largeImageKey = "meteor_client";
-        String largeText = "Meteor Client " + Config.get().version.getOriginalString();
+        rpc.largeImageKey = "SteveH Client";
+        String largeText = "SteveH Client " + Config.get().version.getOriginalString();
         if (!Config.get().devBuild.isEmpty()) largeText += " Dev Build: " + Config.get().devBuild;
         rpc.largeImageText = largeText;
         currentSmallImage = SmallImage.MineGame;
