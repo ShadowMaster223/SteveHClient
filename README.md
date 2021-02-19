@@ -16,5 +16,7 @@ Download from releases and put in mods folder
 - Annoy
 - Nbt
 - Eagle
-- various others
+- tp aura
 - Anti Fire
+- Jetpack
+- Fast break
