@@ -18,5 +18,9 @@ Download from releases and put in mods folder
 - Eagle
 - tp aura
 - Anti Fire
-- Jetpack
 - Fast break
+
+## Added
+- Jetpack
+- Crash chest
+-  others
