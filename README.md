@@ -3,7 +3,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/crazymoose77756/SteveHClient)
 ![GitHub lines of code](https://tokei.rs/b1/github/crazymoose77756/SteveHClient)
 ![CircleCI](https://circleci.com/gh/MeteorDevelopment/meteor-client/tree/master.svg?style=svg)
-![Downloads](https://img.shields.io/github/downloads/crazymoose77756/SteveHClient/total)
+
 
 Minecraft hacked client and utility mod
 
