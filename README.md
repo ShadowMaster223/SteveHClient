@@ -13,6 +13,12 @@ Based on Wurst and Meteor
 ## Installation
 Download from releases and put in mods folder
 
+
+
+
+## [Feature List](https://github.com/crazymoose77756/SteveHClient/wiki/Features)
+
+
 ## Upcoming
 - Annoy
 - Nbt
@@ -21,7 +27,4 @@ Download from releases and put in mods folder
 - Anti Fire
 - Fast break
 
-## Added
-- Jetpack
-- Crash chest
--  others
+
