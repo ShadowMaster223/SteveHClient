@@ -26,5 +26,7 @@ Download from releases and put in mods folder
 - tp aura
 - Anti Fire
 - Fast break
+- Friend Color Tab
+- Tab+
 
 
