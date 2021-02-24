@@ -13,7 +13,7 @@ Based on Wurst and Meteor
 ## Installation
 Download from releases and put in mods folder
 
-
+Let me what to add
 
 
 ## [Feature List](https://github.com/crazymoose77756/SteveHClient/wiki/Features)
