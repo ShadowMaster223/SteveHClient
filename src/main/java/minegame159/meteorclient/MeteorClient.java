@@ -1,5 +1,5 @@
 /*
- * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client/).
+ *hello
  * Copyright (c) 2021 Meteor Development.
  */
 
@@ -67,7 +67,7 @@ public class MeteorClient implements ClientModInitializer {
             return;
         }
 
-        LOG.info("Initializing Meteor Client");
+        LOG.info("Initializing SteveH Client");
 
         mc = MinecraftClient.getInstance();
         Utils.mc = mc;

@@ -1,5 +1,5 @@
 /*
- * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client/).
+ * This file is part of the distribution (https://github.com/MeteorDevelopment/meteor-client/).
  * Copyright (c) 2021 Meteor Development.
  */
 
@@ -212,7 +212,7 @@ public class BetterChat extends Module {
 
     static {
         String[] a = "abcdefghijklmnopqrstuvwxyz".split("");
-        String[] b = "ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴩqʀꜱᴛᴜᴠᴡxyᴢ".split("");
+        String[] b = "á´€Ê™á´„á´…á´‡êœ°É¢ÊœÉªá´Šá´‹ÊŸá´�É´á´�á´©qÊ€êœ±á´›á´œá´ á´¡xyá´¢".split("");
         for (int i = 0; i < a.length; i++) SMALL_CAPS.put(a[i].charAt(0), b[i].charAt(0));
     }
 
@@ -350,7 +350,7 @@ public class BetterChat extends Module {
 
         for (Friend friend : friends) {
             if (message.contains(friend.name)) {
-                message = message.replaceAll(friend.name, "§d" + friend.name + "§r");
+                message = message.replaceAll(friend.name, "Â§d" + friend.name + "Â§r");
                 hadFriends = true;
             }
         }

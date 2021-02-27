@@ -1,5 +1,5 @@
 /*
- * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client/).
+ *hello
  * Copyright (c) 2021 Meteor Development.
  */
 
@@ -24,7 +24,7 @@ public class HttpUtils {
             conn.setRequestMethod(method);
             conn.setConnectTimeout(2500);
             conn.setReadTimeout(2500);
-            conn.setRequestProperty("User-Agent", "Meteor Client");
+            conn.setRequestProperty("User-Agent", "SteveH Client");
 
             if (body != null) {
                 byte[] bytes = body.getBytes(StandardCharsets.UTF_8);

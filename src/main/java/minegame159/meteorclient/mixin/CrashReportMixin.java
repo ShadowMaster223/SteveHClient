@@ -1,5 +1,5 @@
 /*
- * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client/).
+ *hello
  * Copyright (c) 2021 Meteor Development.
  */
 
@@ -23,7 +23,7 @@ public class CrashReportMixin {
     private void onAddStackTrace(StringBuilder sb, CallbackInfo info) {
         if (Modules.get() != null) {
             sb.append("\n\n");
-            sb.append("-- Meteor Client --\n");
+            sb.append("-- SteveH Client --\n");
             sb.append("Version: ").append(Config.get().version.getOriginalString()).append("\n");
 
             if (!Config.get().devBuild.isEmpty()) {
