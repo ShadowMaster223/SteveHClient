@@ -27,8 +27,9 @@ Let me what to add
 
 
 ## Upcoming
+- Better mount bypass
 - Annoy
-- Nbt
+- .d and 11/11
 - Eagle
 - tp aura
 - Anti Fire
