@@ -46,7 +46,7 @@ public CrashChest(Category category, String name, String description) {
     		ListTag nbtList = new ListTag();
     		for(int i = 0; i < 40000; i++)
     			nbtList.add(new ListTag());
-    		nbtCompound.put("www.wurstclient.net", nbtList);
+    		nbtCompound.put("SteveHClient", nbtList);
     		stack.setTag(nbtCompound);
     		stack.setCustomName(new LiteralText("Copy Me"));
     		

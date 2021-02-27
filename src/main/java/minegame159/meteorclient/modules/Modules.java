@@ -17,6 +17,7 @@ import minegame159.meteorclient.events.meteor.KeyEvent;
 import minegame159.meteorclient.modules.combat.*;
 import minegame159.meteorclient.modules.crash.CrashChest;
 import minegame159.meteorclient.modules.crash.KillPotion;
+import minegame159.meteorclient.modules.crash.LagmorStand;
 import minegame159.meteorclient.modules.misc.*;
 import minegame159.meteorclient.modules.movement.Timer;
 import minegame159.meteorclient.modules.movement.*;
@@ -311,6 +312,7 @@ public class Modules extends System<Modules> {
         addModule(new Swarm());
         addModule(new TotemPopNotifier());
         addModule(new Trigger());
+        addModule(new TPaura());
     }
 
     private void initPlayer() {
@@ -436,6 +438,7 @@ public class Modules extends System<Modules> {
         addModule(new AutoSign());
         addModule(new AutoSmelter());
         addModule(new AutoSteal());
+        addModule(new AnnoyHack());
         addModule(new BetterChat());
         addModule(new BookBot());
         addModule(new DiscordPresence());
@@ -447,6 +450,7 @@ public class Modules extends System<Modules> {
         addModule(new Nuker());
         addModule(new OffhandCrash());
         addModule(new PacketCanceller());
+        addModule(new PopBob());
         addModule(new SoundBlocker());
         addModule(new Spam());
         addModule(new StashFinder());
@@ -456,6 +460,7 @@ public class Modules extends System<Modules> {
     private void initCrash() {
     	addModule(new CrashChest());
     	addModule(new KillPotion());
+    	addModule(new LagmorStand());
     }
 
     public static class ModuleRegistry extends Registry<Module> {

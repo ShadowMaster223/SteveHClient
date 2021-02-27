@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bookdupe",
+  "version": "1.0.1",
+
+  "name": "BookDupe",
+  "description": "",
+  "authors": [
+    "andrew_10_"
+  ],
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.andrew.bookdupe.BookDupeMod"
+    ]
+  },
+  "mixins": [
+    "bookdupe.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

@@ -10,6 +10,7 @@ import com.mojang.brigadier.ParseResults;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import minegame159.meteorclient.commands.commands.*;
 import minegame159.meteorclient.commands.commands.swarm.*;
+import minegame159.meteorclient.modules.misc.AnnoyHack;
 import minegame159.meteorclient.systems.System;
 import minegame159.meteorclient.systems.Systems;
 import net.minecraft.client.MinecraftClient;
@@ -120,4 +121,5 @@ public class Commands extends System<Commands> {
     public <T extends Command> T get(Class<T> klass) {
         return (T) commandInstances.get(klass);
     }
+
 }

@@ -209,4 +209,5 @@ public class ESP extends Module {
     public boolean isOutline() {
         return mode.get() == Mode.Outline;
     }
+
 }

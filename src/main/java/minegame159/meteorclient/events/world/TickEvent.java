@@ -21,4 +21,9 @@ public class TickEvent {
             return INSTANCE;
         }
     }
+
+	public Object getComponent() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

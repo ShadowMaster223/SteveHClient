@@ -107,4 +107,6 @@ public class EnumSetting<T extends Enum<?>> extends Setting<T> {
             return new EnumSetting<>(name, description, defaultValue, onChanged, onModuleActivated);
         }
     }
+    
 }
+

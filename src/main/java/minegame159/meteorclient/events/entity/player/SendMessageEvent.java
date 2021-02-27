@@ -17,6 +17,8 @@ public class SendMessageEvent extends Cancellable {
         INSTANCE.msg = msg;
         return INSTANCE;
     }
+
+
 }
 
 
