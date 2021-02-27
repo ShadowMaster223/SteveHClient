@@ -10,11 +10,16 @@ Minecraft hacked client and utility mod
 
 Based on Wurst and Meteor
 
-## 1.4 out soon!
-Tp aura and .d compatibility 
+# 1.4 
+Tp aura and .d set upcompatibility 
+
+
+
 
 ## Installation
-Download from releases and put in mods folder
+Download Jar from releases and put in mods folder
+
+Fabric only!
 
 Let me what to add
 
