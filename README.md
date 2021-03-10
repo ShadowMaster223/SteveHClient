@@ -10,8 +10,8 @@ Minecraft hacked client and utility mod
 
 Based on Wurst and Meteor
 
-# 1.5 out now
-
+# 1.6 out now
+11/11 and pop working
 
 
 
@@ -29,7 +29,7 @@ Let me what to add
 ## Upcoming
 - Better mount bypass
 - Annoy
-- .d and 11/11
+- .d
 - Eagle
 - tp aura
 - Anti Fire
