@@ -364,6 +364,7 @@ public class Modules extends System<Modules> {
         addModule(new AutoJump());
         addModule(new Sprint());
         addModule(new AutoWalk());
+        addModule(new BHop());
         addModule(new Blink());
         addModule(new BoatFly());
         addModule(new ClickTP());

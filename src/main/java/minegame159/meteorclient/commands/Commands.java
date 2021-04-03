@@ -16,7 +16,7 @@ import minegame159.meteorclient.systems.Systems;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientCommandSource;
 import net.minecraft.command.CommandSource;
-
+import minegame159.meteorclient.commands.commands.Dupe;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -47,6 +47,7 @@ public class Commands extends System<Commands> {
         add(new Dismount());
         add(new Damage());
         add(new Drop());
+        add(new Dupe());
         add(new Enchant());
         add(new FakePlayerCommand());
         add(new Friend());
